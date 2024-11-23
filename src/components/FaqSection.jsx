@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+
 const FaqSection = () => {
   return (
     <section
@@ -17,10 +18,10 @@ const FaqSection = () => {
         <Accordion type="single" collapsible className="w-full max-w-3xl">
           <AccordionItem value="item-1">
             <AccordionTrigger>
-              What is Acme Inc's SaaS platform?
+              What is Acme Inc&apos;s SaaS platform?
             </AccordionTrigger>
             <AccordionContent>
-              Acme Inc's SaaS platform is a comprehensive workflow management
+              Acme Inc&apos;s SaaS platform is a comprehensive workflow management
               solution designed to boost productivity and streamline processes
               for businesses of all sizes. It offers features like an intuitive
               dashboard, real-time analytics, and customizable workflows.
@@ -42,7 +43,7 @@ const FaqSection = () => {
             </AccordionTrigger>
             <AccordionContent>
               Yes, we offer a 14-day free trial for our Basic and Pro plans.
-              This allows you to explore our platform's features and determine
+              This allows you to explore our platform&apos;s features and determine
               which plan best suits your needs before committing to a
               subscription.
             </AccordionContent>
@@ -61,7 +62,7 @@ const FaqSection = () => {
           </AccordionItem>
           <AccordionItem value="item-5">
             <AccordionTrigger>
-              Can I integrate Acme Inc's platform with other tools?
+              Can I integrate Acme Inc&apos;s platform with other tools?
             </AccordionTrigger>
             <AccordionContent>
               Our platform offers seamless integration with a wide range of
@@ -74,6 +75,6 @@ const FaqSection = () => {
       </div>
     </section>
   );
-}
+};
 
-export default FaqSection
+export default FaqSection;
